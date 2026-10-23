@@ -1,0 +1,4 @@
+# Block running scripts from the uploads folder
+<FilesMatch "\.(php|phtml|phar|php[0-9])$">
+    Require all denied
+</FilesMatch>

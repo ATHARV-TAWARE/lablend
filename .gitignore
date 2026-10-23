@@ -1,0 +1,4 @@
+assets/images/uploads/*
+!assets/images/uploads/.htaccess
+.DS_Store
+Thumbs.db
