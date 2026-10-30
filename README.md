@@ -153,3 +153,7 @@ lablend/
 6. **Admin → Issued → Overdue** → mark Rohan's camera returned → fine calculated with `DATEDIFF`, stock restored.
 7. **Reports** → open “Show SQL” on HAVING, anti-join and nested subquery reports.
 8. Try deleting a lab → blocked by the foreign key. In phpMyAdmin run `UPDATE equipment SET available_qty = -1 …` → blocked by the CHECK constraint.
+
+---
+
+Developed by Atharv Taware.
